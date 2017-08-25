@@ -21,31 +21,75 @@ body {
   display: block;
 }
 
+.bike-logo {
+  width: 335px;
+  height: 335px;
+  border-radius: 50%;
+  padding-top: 60px;
+}
+
+h1 {
+  margin: 70px auto 0;
+}
+
 footer, .page-wrap:after {
   height: 60px;
 }
 
 footer {
-  background: rgb(22, 186, 100);
+  background-color: rgb(22, 186, 100);
 }
 
 
 // typography
 * {
-  font-family: fantasy;
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 nav a {
-  font-size: 15px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-family: "Eater Caps";
+  font-size: 2em;
+}
+
+nav i {
+  color: white;
+}
+
+nav a:hover, .nav a:focus {
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 h1 {
   color: grey;
   text-align: center;
+  font-weight: bold;
+}
+
+.bike-logo {
+  border: 2px dashed grey;
+  font-size: 3em;
+}
+
+.header-logo {
+  font-family: "Eater Caps";
 }
 
 footer {
   color: white;
   text-align: center;
   line-height: 3.5;
+}
+
+// medai queries
+@media (max-width: 768px) {
+  body {
+    margin-top: 206px;      // 186 + (70-50)
+  }
 }

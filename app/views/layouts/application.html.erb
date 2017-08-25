@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nameofapp</title>
+  <title>Bike Imperium</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -11,13 +11,20 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= csrf_meta_tags %>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Raleway|Eater+Caps" rel="stylesheet">
+  <!-- icon for title -->
+  <%= favicon_link_tag 'icon.ico' %>
+  <!-- icon for nav bar -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
+        <a class="navbar-brand" href="#"><i class="fa fa-bicycle" style="font-size: 25px"></i> Bike Imperium</a>
       </div> <!-- end navbar-header -->
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
@@ -30,7 +37,7 @@
   <%= yield %>
 
   <footer>
-    &copy; 2017 Bike Berlin
+    &copy; 2017 Bike Imperium
   </footer>
 
 </body>
