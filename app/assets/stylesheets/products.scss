@@ -1,6 +1,34 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-.well {
+// You can use Sass (SCSS) here: http://sass-lang.com
+
+*, *::after, *::before { box-sizing:border-box; }
+
+.single-product {
   height: 600px;
+  background-color: rgb(223, 218, 226);
+  border: 2px solid #9d9d9d;
+  // margin: 10px;
+}
+
+.single-product .img-responsive {
+  padding: 20px 5px 0 5px;
+}
+
+.single-product h1 {
+  margin: 10px auto;
+}
+
+
+// media queries
+@media (max-width: 980px) {
+  .single-product {
+    height: 800px;
+  }
+}
+
+@media (max-width: 480px) {
+  .single-product {
+    height: 600px;
+  }
 }

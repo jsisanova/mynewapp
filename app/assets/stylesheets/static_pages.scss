@@ -1,6 +1,7 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*, *::after, *::before { box-sizing:border-box; }
 
 html, body {
   height: 100%;
@@ -8,17 +9,22 @@ html, body {
 } /*page-wrap*/
 
 body {
-  margin-top: 50px; /*bcs of fixed nav*/
+  margin-top: 50px;
+  /*bcs of fixed nav*/
 }
 
 .page-wrap {
   min-height: 100%;
-  margin-bottom: -60px;
+  margin: 0 40px -60px 40px;
 }
 
 .page-wrap:after {
   content: "";
   display: block;
+}
+
+.page-wrap h1 {
+  margin-bottom: 20px;
 }
 
 .bike-logo {
@@ -30,6 +36,15 @@ body {
 
 h1 {
   margin: 70px auto 0;
+}
+
+#image-header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.intro-image {
+  width: 50%;
 }
 
 footer, .page-wrap:after {
@@ -87,9 +102,22 @@ footer {
   line-height: 3.5;
 }
 
-// medai queries
+// media queries
 @media (max-width: 768px) {
   body {
     margin-top: 206px;      // 186 + (70-50)
+  }
+
+  .intro-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .bike-logo {
+    width: 265px;
+    height: 265px;
+    padding-top: 45px;
+    font-size: 2.6em;
   }
 }
