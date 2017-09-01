@@ -81,7 +81,7 @@ nav a {
 .bike-imperium-logo {
   font-family: "Eater Caps";
   font-size: 2em;
-  line-height: 2;
+  line-height: 2.1;
 }
 
 .bike-imperium-logo:hover, .bike-imperium-logo:focus {
@@ -165,5 +165,9 @@ footer {
     height: 265px;
     padding-top: 45px;
     font-size: 2.6em;
+  }
+
+  .bike-imperium-logo {
+    font-size: 1.5em;
   }
 }
