@@ -1,12 +1,28 @@
 <div class="page-wrap">
 
   <h1>Contact us</h1>
-  <h3>Contact information &amp; customer service</h3>
-  <p>
-    Jana Sisanova <br>
-    Paracelsusstrasse 20 <br>
-    Muenchen <br> <br>
-    Email: jana.sisanova@gmail.com <br> <br>
-  </p>
 
-</div>
+  <%= flash[:notice] %>
+
+  <%= form_tag("/static_pages/thank_you") do %>
+    <div class="row">
+      <<div class="col-md-6 col-md-offset-3 col-sm-12">
+        <div class="form-group">
+          <%= label_tag :name %>
+          <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name", required: "true"%>
+        </div> <!-- end form-group -->
+        <div class="form-group">
+          <%= label_tag :email, "Email Address" %>
+          <%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email", required: "true", type: "email" %>
+        </div> <!-- end form-group -->
+        <div class="form-group">
+          <%= label_tag :message %>
+          <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message", required: "true" %>
+        </div> <!-- end form-group -->
+        <%= submit_tag "Send", class: "btn btn-info" %>
+      </div> <!-- end col -->
+    </div> <!-- end row -->
+
+  <% end %>
+
+</div> <!-- end page-wrap -->
