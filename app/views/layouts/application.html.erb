@@ -31,6 +31,13 @@
         <li><%= link_to 'About', static_pages_about_path %></li>
         <li><%= link_to 'Products', products_path %></li>
         <li><%= link_to "Contact", static_pages_contact_url %></li>
+
+        <!-- search box -->
+        <%= form_tag(products_path, method: "get", class:"navbar-form navbar-right") do %>
+          <%= text_field_tag(:q, "", type: "text", class: "form-control", placeholder: "search text") %>
+          <%= submit_tag("Search", class: "btn btn-default") %>
+        <% end %>
+
       </ul>
     </div> <!-- end container-fluid -->
   </nav>

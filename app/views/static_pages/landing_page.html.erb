@@ -6,7 +6,6 @@
     <% end %>
   </ol>
 
-
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <% @products.each do |product| %>
@@ -14,11 +13,10 @@
       <%= image_tag(product.image_url, class: "carousel-image") %>
       <div class= "carousel-caption">
         <%= product.name %>
-      </div>
-    </div>
+      </div> <!-- end carousel-caption -->
+    </div> <!-- end item -->
     <% end %>
-  </div>
-
+  </div> <!-- end carousel-inner -->
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -29,4 +27,4 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> <!-- end carousel -->
