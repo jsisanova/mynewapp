@@ -67,6 +67,11 @@ footer {
   filter: none !important;
   progid:none !important; }
 
+// show page
+#product-show {
+  padding-top: 20px;
+} // bcs. of nav
+
 
 // typography
 * {
@@ -131,6 +136,12 @@ footer {
 }
 
 // media queries
+@media (max-width: 950px) {
+  body {
+    margin-top: 130px;
+  }
+}
+
 @media (max-width: 860px) {
   .carousel-caption {
     bottom: 200px;
@@ -140,7 +151,7 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    margin-top: 186px;
+    margin-top: 276px;
   }
 
   .carousel {
@@ -154,6 +165,14 @@ footer {
   .intro-image {
     width: 100%;
   }
+
+  .products-header {
+    padding-top: 90px;
+  } // bcs. of nav
+
+  #product-show {
+    padding-top: 110px;
+  }// bcs. of nav
 }
 
 @media (max-width: 510px) {
