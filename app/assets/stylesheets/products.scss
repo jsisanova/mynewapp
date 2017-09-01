@@ -8,15 +8,14 @@
   height: 600px;
   background-color: rgb(223, 218, 226);
   border: 2px solid #9d9d9d;
-  // margin: 10px;
 }
 
-.single-product .img-responsive {
-  padding: 20px 5px 0 5px;
+.product-text {
+  padding: 0 25px;
 }
 
-.single-product h1 {
-  margin: 10px auto;
+.product {
+  padding-bottom: 25px;
 }
 
 
@@ -25,10 +24,19 @@
   .single-product {
     height: 800px;
   }
+
+  .page-wrap {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
 }
 
 @media (max-width: 480px) {
   .single-product {
     height: 600px;
+  }
+
+  .product {
+    padding: 0 0 25px 0;
   }
 }

@@ -10,8 +10,7 @@ html, body {
 
 body {
   margin-top: 50px;
-  /*bcs of fixed nav*/
-}
+} /*bcs of fixed nav*/
 
 .page-wrap {
   min-height: 100%;
@@ -27,6 +26,10 @@ body {
   margin-bottom: 20px;
 }
 
+h1 {
+  margin: 70px auto 0;
+}
+
 .bike-logo {
   width: 335px;
   height: 335px;
@@ -34,12 +37,8 @@ body {
   padding-top: 60px;
 }
 
-h1 {
-  margin: 70px auto 0;
-}
-
+// index page
 #image-header {
-  text-align: center;
   padding: 10px 0;
 }
 
@@ -54,6 +53,18 @@ footer, .page-wrap:after {
 footer {
   background-color: rgb(22, 186, 100);
 }
+
+
+// landing_page page
+.carousel-caption {
+  bottom: 300px;
+  background-color: rgba(184, 180, 189, 0.62);
+}
+
+.carousel-control {
+  background: none !important;
+  filter: none !important;
+  progid:none !important; }
 
 
 // typography
@@ -96,6 +107,15 @@ h1 {
   font-family: "Eater Caps";
 }
 
+#image-header {
+  text-align: center;
+}
+
+.carousel-caption {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
 footer {
   color: white;
   text-align: center;
@@ -103,13 +123,31 @@ footer {
 }
 
 // media queries
+@media (max-width: 860px) {
+  .carousel-caption {
+    bottom: 200px;
+    font-size: 2.5em;
+  }
+}
+
 @media (max-width: 768px) {
   body {
-    margin-top: 206px;      // 186 + (70-50)
+    margin-top: 186px;
+  }
+
+  .page-wrap {
+    padding-top: 10px;
   }
 
   .intro-image {
     width: 100%;
+  }
+}
+
+@media (max-width: 510px) {
+  .carousel-caption {
+    bottom: 95px;
+    font-size: 1.5em;
   }
 }
 
