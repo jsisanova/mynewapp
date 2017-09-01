@@ -24,12 +24,13 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><i class="fa fa-bicycle" style="font-size: 25px"></i> Bike Imperium</a>
+        <a class="navbar-brand" href="#"><i class="fa fa-bicycle" style="font-size: 25px"></i><%= link_to 'Bike Imperium', root_path, { :class=>"bike-imperium-logo" } %></a>
       </div> <!-- end navbar-header -->
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to 'Home', static_pages_index_path %></li>
+        <li><%= link_to 'About', static_pages_about_path %></li>
+        <li><%= link_to 'Products', products_path %></li>
+        <li><%= link_to "Contact", static_pages_contact_url %></li>
       </ul>
     </div> <!-- end container-fluid -->
   </nav>
