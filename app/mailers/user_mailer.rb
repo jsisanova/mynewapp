@@ -5,7 +5,7 @@ class UserMailer < ApplicationMailer
   @message = message
   @name = name
     mail(from: email,
-         to: 'jana.sisanova@example.com',
+         to: 'jana.sisanova@gmail.com',
          subject: "A new contact form message from #{name}")
   end
 end
