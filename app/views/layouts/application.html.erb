@@ -20,6 +20,8 @@
 </head>
 
 <body>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -32,12 +34,20 @@
         <li><%= link_to 'Products', products_path %></li>
         <li><%= link_to "Contact", static_pages_contact_url %></li>
 
+        <!-- Sign up Log in -->
+        <div class="navbar-form navbar-right">
+        <% if user_signed_in? %>
+          <%= link_to('Logout', destroy_user_session_path, method: :delete, class:"login") %>
+        <% else %>
+          <%= link_to('Login', new_user_session_path, class:"login") %>
+        <% end %>
+        </div> <!-- end navbar-form navbar-right -->
+
         <!-- search box -->
         <%= form_tag(products_path, method: "get", class:"navbar-form navbar-right") do %>
           <%= text_field_tag(:q, "", type: "text", class: "form-control", placeholder: "search text") %>
           <%= submit_tag("Search", class: "btn btn-default") %>
         <% end %>
-
       </ul>
     </div> <!-- end container-fluid -->
   </nav>
