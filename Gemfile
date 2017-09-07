@@ -51,3 +51,4 @@ end
 #gem that communicates with PostgreSQL databases (Heroku)
 
 gem 'devise'
+gem 'cancancan', '~>1.10'
