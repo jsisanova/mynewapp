@@ -3,19 +3,19 @@ Rails.application.routes.draw do
 
   resources :users
   resources :products
+  resources :orders, only: [:index, :show, :create, :destroy]
+
+  get 'static_pages/index'
   get 'static_pages/about'
   get 'static_pages/contact'
-  get 'static_pages/index'
-  get 'static_pages/landing_page'
+  # get 'static_pages/landing_page'     # bcs root
   get 'static_pages/thank_you'
 
   post 'static_pages/thank_you'
 
   root 'static_pages#landing_page'
 
-  # resources :users
-  resources :users, only: [:index, :show, :create, :destroy]
-  resources :orders, only: [:index, :show, :create, :destroy]
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

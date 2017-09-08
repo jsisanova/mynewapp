@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+   font-family: 'Raleway', 'Arial', sans-serif;
+ }
+
+ html, body {
+   height: 100%;
+   margin: 0;
+ } /*page-wrap*/
+
+ body {
+   margin-top: 50px; /*bcs of fixed nav*/
+   background-color: #fff;
+   color: #333;
+   font-family: verdana, arial, helvetica, sans-serif;
+   font-size: 13px;
+   line-height: 18px;
+ }
+
+ /*media queries*/
+ @media (max-width: 1079px) {
+   body {
+     margin-top: 110px;
+   }
+ }
+
+ @media (max-width: 821px) {
+   body {
+     margin-top: 140px;
+   }
+ }
+
+ @media (max-width: 769px) {
+   body {
+     margin-top: 330px;
+   }
+ }

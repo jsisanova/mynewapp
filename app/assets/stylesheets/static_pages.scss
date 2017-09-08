@@ -1,16 +1,6 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-*, *::after, *::before { box-sizing:border-box; }
-
-html, body {
-  height: 100%;
-  margin: 0;
-} /*page-wrap*/
-
-body {
-  margin-top: 50px;
-} /*bcs of fixed nav*/
 
 .page-wrap {
   min-height: 100%;
@@ -30,64 +20,15 @@ nav {
   padding-right: 15px;
 }
 
-h1 {
-  margin: 20px auto 0;
-}
-
-.bike-logo {
-  width: 335px;
-  height: 335px;
-  border-radius: 50%;
-  padding-top: 60px;
-}
-
-footer, .page-wrap:after {
-  height: 60px;
-}
-
-footer {
-  background-color: rgb(22, 186, 100);
-}
-
-
-// index page
-#image-header {
-  padding: 10px 0;
-}
-
-.intro-image {
-  width: 50%;
-}
-
-
-// landing_page page
-.carousel {
-  margin-top: -50px;
-}
-.carousel-caption {
-  bottom: 350px;
-  background-color: rgba(184, 180, 189, 0.62);
-}
-
-.carousel-control {
-  background: none !important;
-  filter: none !important;
-  progid:none !important; }
-
-// show page
-#product-show {
-  padding-top: 20px;
-} // bcs. of nav
-
-
-// typography
-* {
-  font-family: 'Raleway', 'Arial', sans-serif;
-}
-
 nav a {
   font-size: 1.2em;
   text-transform: uppercase;
+}
+
+nav a:hover, .nav a:focus {
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .login {
@@ -112,16 +53,44 @@ nav i {
   color: white;
 }
 
-nav a:hover, .nav a:focus {
-  font-size: 1.3em;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
 h1 {
+  margin: 20px auto 0;
   color: grey;
   text-align: center;
   font-weight: bold;
+}
+
+.bike-logo {
+  width: 335px;
+  height: 335px;
+  border-radius: 50%;
+  padding-top: 60px;
+}
+
+footer, .page-wrap:after {
+  height: 60px;
+}
+
+footer {
+  background-color: rgb(22, 186, 100);
+  color: white;
+  text-align: center;
+  line-height: 3.5;
+}
+
+
+// index page
+#image-header {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.intro-image {
+  width: 50%;
+}
+
+.index-image {
+  text-align: center;
 }
 
 .bike-logo {
@@ -133,27 +102,33 @@ h1 {
   font-family: "Eater Caps";
 }
 
-#image-header {
-  text-align: center;
+
+// landing_page page
+.carousel {
+  margin-top: -50px;
 }
 
 .carousel-caption {
+  bottom: 350px;
+  background-color: rgba(184, 180, 189, 0.62);
   font-size: 3.5em;
   font-weight: bold;
 }
 
-footer {
-  color: white;
-  text-align: center;
-  line-height: 3.5;
-}
+.carousel-control {
+  background: none !important;
+  filter: none !important;
+  progid:none !important; }
+
+
+// show page
+#product-show {
+  padding-top: 20px;
+} // bcs. of nav
+
 
 // media queries
 @media (max-width: 1079px) {
-  body {
-    margin-top: 110px;
-  }
-
   .carousel-caption {
     bottom: 200px;
     font-size: 2.5em;
@@ -161,20 +136,12 @@ footer {
 }
 
 @media (max-width: 821px) {
-  body {
-    margin-top: 140px;
-  }
-
   .carousel {
     padding-top: 30px;
   }
 }
 
 @media (max-width: 769px) {
-  body {
-    margin-top: 330px;
-  }
-
   .carousel {
     padding-top: 70px;
   }
