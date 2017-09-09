@@ -9,6 +9,7 @@ class Ability
     else
       can :manage, User, id: user.id
       cannot :destroy, :all
+
     end
   end
 end
