@@ -35,12 +35,18 @@
         <strong>Price:</strong>
         <%= @product.price %> <small><span class="glyphicon glyphicon-euro fa-sm"></span></small>
       </p>
+
+      <p>
+        <strong>Average Rating:</strong>
+        <div class="rated" data-score="<%= @product.average_rating %>"></div>
+      </p>
     </div><!-- end col -->
   </div> <!-- end row -->
 
-
-  <%= link_to 'Edit', edit_product_path(@product), class: "btn btn-default"%> |
-  <%= link_to 'Back', products_path, class: "btn btn-default" %>
+  <div class="product-buttons">
+    <%= link_to 'Edit', edit_product_path(@product), class: "btn btn-default"%> |
+    <%= link_to 'Back', products_path, class: "btn btn-default" %>
+  </div>
 
   <div class="row" id="comments-section">
     <div class="col-md-10 col-md-offset-1 col-sm-12">
@@ -51,3 +57,6 @@
     </div> <!-- end col -->
   </div> <!-- end row -->
 </div> <!-- end container -->
+
+<%= render 'new_comment' %>
+<%= render 'comments' %>

@@ -20,6 +20,18 @@
   font-size: 18px;
 }
 
+.product-buttons {
+  margin: 40px 0 70px;
+}
+
+.rated {
+  padding-bottom: 15px;
+}
+
+.product-reviews {
+  padding-top: 45px;
+}
+
 
 // media queries
 @media (max-width: 980px) {
@@ -40,5 +52,9 @@
 
   .product {
     padding: 0 0 25px 0;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 }

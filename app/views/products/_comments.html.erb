@@ -1,0 +1,15 @@
+<div class="container product-reviews">
+  <div class="row">
+    <div class= "col-md-12 col-md-offset-0 col-sm-8 col-sm-offset-2">
+      <hr>
+      <h3>Latest customers reviews:</h3>
+      <% @comments.each do |comment| %>
+          <hr>
+          <p><strong><%= comment.user.first_name %></strong> <small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small></p>
+          <p><%= "Rating: #{comment.rating}/5" %></p>
+          <div class="rated" data-score="<%= comment.rating %>"></div>
+          <p><%= comment.body %></p>
+      <% end %>
+    </div> <!-- end col -->
+  </div> <!-- end row -->
+</div> <!-- end container -->

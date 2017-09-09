@@ -16,4 +16,8 @@ class Product < ActiveRecord::Base
     comments.rating_asc.first
     # or comments.order(:rating)
   end
+
+  def average_rating
+  comments.average(:rating).to_f
+  end
 end
