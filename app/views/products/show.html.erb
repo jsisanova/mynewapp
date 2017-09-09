@@ -48,15 +48,14 @@
     <%= link_to 'Back', products_path, class: "btn btn-default" %>
   </div>
 
-  <div class="row" id="comments-section">
-    <div class="col-md-10 col-md-offset-1 col-sm-12">
-      <%= @product.highest_rating_comment %>
-      <%= @product.lowest_rating_comment %>
-    </div> <!-- end col -->
-    <div class="col-md-1">
-    </div> <!-- end col -->
-  </div> <!-- end row -->
 </div> <!-- end container -->
 
 <%= render 'new_comment' %>
 <%= render 'comments' %>
+
+
+<br><br>
+<div class ="page-number">
+  <%= will_paginate @comments %>
+</div>
+<br>

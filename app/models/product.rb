@@ -2,6 +2,8 @@ class Product < ActiveRecord::Base
   has_many :orders
   has_many :comments
 
+  validates :name, presence: true
+
   def self.search(search_term)
     like_operator = Rails.env.production? ? "ilike" : "LIKE"
 		Product.where("name #{like_operator} ?", "%#{search_term}%")

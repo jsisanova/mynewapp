@@ -1,7 +1,7 @@
 <div class="page-wrap products-wrap">
 
   <p id="notice"><%= notice %></p>
-  
+
   <h1>Listing Products</h1>
   <div class="container-fluid">
     <div class="row">
@@ -11,6 +11,12 @@
 
   <br>
 
-  <%= link_to 'New Product', new_product_path %>
+  <%= link_to 'New Product', new_product_path %><br><br>
+
+  <br><br>
+  <div class ="page-number">
+    <%= will_paginate @products %>
+  </div>
+  <br>
 
 </div>
