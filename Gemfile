@@ -41,6 +41,9 @@ group :development, :test do
 
   # Functional tests
   gem 'rails-controller-testing'
+
+  # Factory girl
+  gem "factory_girl_rails", "~> 4.0"
 end
 
 group :development do
