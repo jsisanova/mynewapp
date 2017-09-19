@@ -15,6 +15,7 @@ describe UsersController, type: :controller do
         expect(assigns(:user)).to eq user
         expect(response).to have_http_status(200)
       end
+    end
     #   it 'cant access other users show page' do
     #     get :show, params: { id: user2.id }
     #     expect(response).to have_http_status(302)
@@ -29,5 +30,4 @@ describe UsersController, type: :controller do
       end
     end
   end
-
 end
