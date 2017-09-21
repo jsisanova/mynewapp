@@ -59,6 +59,12 @@ group :production do
 end
 #gem that communicates with PostgreSQL databases (Heroku)
 
+# Added gems
+# Use devise for user authentication
 gem 'devise'
+# Use CanCanCan for user authorisation
 gem 'cancancan', '~>1.10'
+# Use will_paginate for pagination
 gem 'will_paginate', '~> 3.1.1'
+# Use Stripe for payment processing
+gem 'stripe'
