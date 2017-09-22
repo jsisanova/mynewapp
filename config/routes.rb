@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   post 'static_pages/thank_you'
   post 'payments/create'
+  get 'payments/create'
 
   root 'static_pages#landing_page'
 
