@@ -11,8 +11,19 @@ class PaymentsController < ApplicationController
         amount: (@product.price * 100).to_i,
         currency: "eur",
         source: token,
-        description: params[:stripeEmail]
+        description: params[:stripeEmail],
+        receipt_email: params[:stripeEmail]
       )
+
+    if charge.paid
+      Order.create(
+        user_id: @user.id,
+        product_id: @product.id,
+        total: @product.price.to_i
+        )
+      flash[:notice] = "Thank you for purchasing #{@product.name}"
+    end
+
     rescue Stripe::CardError => e
       # The card has been declined
       body = e.json_body
@@ -21,7 +32,9 @@ class PaymentsController < ApplicationController
       # flash[:notice] = "Please try again"
     end
 
-    # redirect_to product_path(product)
     redirect_to product_path(@product)
+    # redirect_to :controller => 'payment', :action => 'create'
+    # redirect_to create_payment_path
+
   end
 end
