@@ -1,11 +1,9 @@
-<div class="container payment-message">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2 col-xs-12">
-      <h3>
-        Thank you for your purchase of <%= @product.name %> for <%= @product.price %> with Bike Imperium!
-      </h3>
-      <p class="payment-text"> Be sure to leave us a <%=link_to 'comment', product_path(@product)%>. </p>
-      <p class="payment-text"> Please have a look at our other <%= link_to 'bikes!', products_path %> </p>
-      <%= link_to products_path %>
-  </div><!-- end row -->
-</div><!-- end container -->
+<div class="payment-message">
+  <h3>
+    Thank you for your purchase of <%= @product.name %> for <%= @product.price %> &euro; with Bike Imperium!
+  </h3>
+  <p class="payment-text"> Be sure to leave us a <%=link_to 'comment', product_path(@product)%>. </p>
+  <p class="payment-text"> Please have a look at our other <%= link_to 'bikes!', products_path %> </p>
+  <br>
+  <%= link_to products_path %>
+</div><!-- end payment-message -->

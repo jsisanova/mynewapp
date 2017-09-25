@@ -9,6 +9,16 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+
+    collection = [2, 7, 9]
+    logger.debug "iterating over a collection of #{collection.count} items"
+    collection.each do |item|
+      logger.debug "Item before increment: #{item}"
+      # item.increment!
+      # logger.debug "Item after increment #{item}"
+    end
+    logger.debug "done iterating!"
+
   end
 
   # GET /users/1

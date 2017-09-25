@@ -32,9 +32,8 @@ class PaymentsController < ApplicationController
       # flash[:notice] = "Please try again"
     end
 
-    redirect_to product_path(@product)
-    # redirect_to :controller => 'payment', :action => 'create'
-    # redirect_to create_payment_path
+    # redirect_to product_path(@product)
+    # automatically redirects to create.html.erb
 
   end
 end

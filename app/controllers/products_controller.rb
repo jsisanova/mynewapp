@@ -7,11 +7,13 @@ class ProductsController < ApplicationController
     if params[:q]
       search_term = params[:q]
       @products = Product.search(search_term) # return our filtered list here
-      # @products = Product.all if @products.count == 0    # or @products.count.zero  
+      # @products = Product.all if @products.count == 0    # or @products.count.zero
     else
       @products = Product.all
     end # search box
     @products = @products.paginate(page: params[:page], per_page: 6)
+    logger.debug "Search Results - Product count: #{@products.size}"
+    logger.debug "Logger.debug inside create method of ProductsController"
   end
 
   # GET /products/1
@@ -34,6 +36,7 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
+    logger.debug "Product: #{@product.name}"
 
     respond_to do |format|
       if @product.save
