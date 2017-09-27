@@ -15,4 +15,12 @@ $(document).on('turbolinks:load ajaxSuccess', function() {
       return $(this).attr('data-score');
     }
   });
+
+  // Script for elevateZoom
+  $('.img-zoom').elevateZoom({
+  zoomType: "lens",
+  lensShape: "round",
+  lensSize: 200
+  });
+
 });
