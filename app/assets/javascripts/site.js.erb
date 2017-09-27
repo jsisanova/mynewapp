@@ -1,4 +1,4 @@
-$(document).on('turbolinks:load ajaxSuccess', function() {
+var refreshRating = function() {
   $('.rating').raty({
     starHalf: '<%= asset_path 'star-half.png' %>',
     starOff: '<%= asset_path 'star-off.png' %>',
@@ -6,7 +6,7 @@ $(document).on('turbolinks:load ajaxSuccess', function() {
     scoreName: 'comment[rating]'
   });
 
-  $('.rated').raty({
+    $('.rated').raty({
     starHalf: '<%= asset_path 'star-half.png' %>',
     starOff: '<%= asset_path 'star-off.png' %>',
     starOn: '<%= asset_path 'star-on.png' %>',
@@ -15,12 +15,15 @@ $(document).on('turbolinks:load ajaxSuccess', function() {
       return $(this).attr('data-score');
     }
   });
+};
 
-  // Script for elevateZoom
-  $('.img-zoom').elevateZoom({
-  zoomType: "lens",
-  lensShape: "round",
-  lensSize: 200
-  });
+$(document).on('turbolinks:load ajaxSuccess', function() {
+    refreshRating();
 
+    // Script for elevateZoom
+    $('.img-zoom').elevateZoom({
+    zoomType: "lens",
+    lensShape: "round",
+    lensSize: 200
+    });
 });
