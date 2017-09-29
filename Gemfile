@@ -70,3 +70,5 @@ gem 'cancancan', '~>1.10'
 gem 'will_paginate', '~> 3.1.1'
 # Use Stripe for payment processing
 gem 'stripe'
+# Use Dalli - Ruby memcache client
+gem 'dalli'
