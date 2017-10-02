@@ -72,3 +72,7 @@ gem 'will_paginate', '~> 3.1.1'
 gem 'stripe'
 # Use Dalli - Ruby memcache client
 gem 'dalli'
+# Use Redis for caching complex data
+gem 'redis-rails'
+# Use a monitoring tool New Relic
+gem 'newrelic_rpm'
