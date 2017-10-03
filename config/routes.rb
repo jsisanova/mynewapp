@@ -7,6 +7,8 @@ resources :products do
   resources :comments
 end
 
+mount ActionCable.server => '/cable'
+
 get 'static_pages/index'
 get 'static_pages/about'
 get 'static_pages/contact'

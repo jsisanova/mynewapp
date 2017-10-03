@@ -61,6 +61,9 @@
 </div> <!-- end container -->
 
 <%= render 'new_comment' %>
+
+<div class="alert alert-info" style="display:none" role="alert">A new comment was posted!</div>
+
 <%= render 'comments' %>
 
 
@@ -75,4 +78,4 @@
   <span class="badge">
     <%= @product.views %>
   </span>
-</h6> 
+</h6>
