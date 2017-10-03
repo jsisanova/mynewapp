@@ -1,0 +1,419 @@
+[33mcommit 54d5bf2a21580fdf2d54fc376e15226c9f7a8915[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Oct 3 15:47:05 2017 +0200
+
+    6.13 Streaming - ActionCable
+
+[33mcommit 73ba63ca4d5864da009758139b21ba137ef55b04[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Oct 3 00:19:51 2017 +0200
+
+    6.13 Upgrade Rails 4 to Rails 5
+
+[33mcommit d351c09388b67a9aea2d97d3a849ad2795f343e5[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Mon Oct 2 14:11:12 2017 +0200
+
+    6.12 Add Redis and performance strategy
+
+[33mcommit eb1fd257e24b73bd2e20a0e9af17dad9091df23b[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Mon Oct 2 12:44:54 2017 +0200
+
+    6.12 Redis and performance strategy
+
+[33mcommit deaf4304c4306b39dbce73881348d1493fbd64d9[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 29 18:21:44 2017 +0200
+
+    6.11 Use caching
+
+[33mcommit 6067f701a732ceeb1e26bc0a2fc0e1bfa091db1c[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 29 17:14:01 2017 +0200
+
+    6.11 Use caching
+
+[33mcommit 4aa22cfdbb2b40f3bec0cf540663b1cc1dda077a[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Sep 27 22:16:24 2017 +0200
+
+    6.10 Use AJAX
+
+[33mcommit 00bf995abb6fd1968062bf8563e5eab69b58cefc[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Sep 27 17:22:05 2017 +0200
+
+    6.9 Use elevateZoom - jQuery image zoom plugin
+
+[33mcommit 47b118bc9e58f3da2352ffaaa4ebcb5e30d23ea8[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 26 07:49:32 2017 +0200
+
+    6.8 Rails upgraded
+
+[33mcommit 8a46c9572896f24c14b2f69bce549597b4eaaa33[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 26 02:41:23 2017 +0200
+
+    6.3 Add tests
+
+[33mcommit 8a830cd92655294703b6a9cbc24f6eb1c9328c67[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 26 00:04:55 2017 +0200
+
+    6.3 Add tests
+
+[33mcommit 1bb48caade3094925d3559a13207be3581816019[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Mon Sep 25 04:39:22 2017 +0200
+
+    6.7 Basic and interactive debugging
+
+[33mcommit 2385c07af4a50facc37ad20547de10daadd8fac5[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Mon Sep 25 03:08:11 2017 +0200
+
+    6.7 Basic and interactive debugging
+
+[33mcommit a0ab07101d29ee830c689a03a739968d4946d232[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sun Sep 24 20:46:02 2017 +0200
+
+    6.6 Set up payments controller
+
+[33mcommit 2b71a6cac5b8a21c792df558ae256d446bd182bc[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 22 15:51:29 2017 +0200
+
+    6.6 Set up the payments controller
+
+[33mcommit 76020fadecf830ec2986a747effeaa794cae88b5[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 22 15:36:09 2017 +0200
+
+    6.6 Set up the payments controller
+
+[33mcommit 93398de8a3a030c5722ad30b5fea21204f33b48d[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 22 13:08:22 2017 +0200
+
+    6.4 Add FactoryGirl
+
+[33mcommit 44b874e5d5d338430509bb4b47522fe9745ec4c0[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Sep 21 16:51:18 2017 +0200
+
+    6.5 Create a Stripe payment form
+
+[33mcommit 2df7714dfffa419c1a8872f2c297d647d26ea6d5[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Sep 20 01:23:52 2017 +0200
+
+    6.4 Add FactoryGirl
+
+[33mcommit c1a1833090bc2eb8605e2d76a3974e69e9157efc[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 19 22:01:52 2017 +0200
+
+    6.3 Add functional test to users
+
+[33mcommit d979565121561e9fd50d4226b4d80885b1787b11[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 19 19:18:24 2017 +0200
+
+    6.3 Add dunctional test for users
+
+[33mcommit c67cef757f367d88b2f43c44e106604a38bc092c[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 19 18:03:37 2017 +0200
+
+    6.3 Add functional test for Users
+
+[33mcommit dbb2766b13241310fc43c43d660286b0304afabe[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 19 17:48:12 2017 +0200
+
+    6.3 Add functional test for users
+
+[33mcommit 4aa8d24af6a8292ff3572adbb0370b5e64708110[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Sep 19 14:33:47 2017 +0200
+
+    6.2 Create unit test
+
+[33mcommit 0a630049d21bbafd9963dbc5f79fa8964f00e617[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sun Sep 10 02:47:36 2017 +0200
+
+    6.2 Write unit test for product model
+
+[33mcommit 36b62cf39d78ee866eb39117aecd8bfa7d530658[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 18:37:10 2017 +0200
+
+    6.1 Add RSpec
+
+[33mcommit c597a7b69792b13c374b238695846e6f1c06a100[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 14:04:41 2017 +0200
+
+    5.11 Edit final layout
+
+[33mcommit 523fed92db7e7b7cad69041ab7c5bbb71266d574[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 13:39:41 2017 +0200
+
+    5.11 Edit layout and functionality
+
+[33mcommit 0d0634ad928cce49c17ff505a6a2b5c14f80ce05[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 12:51:17 2017 +0200
+
+    5.10 Add admin role and moderate user comments
+
+[33mcommit ef104f1e259f6b27d6a1ff498c94bf7ec4acbc3b[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 12:02:29 2017 +0200
+
+    5.10 Add admin flag to users
+
+[33mcommit d1a0abffa88f3fdc93d71bf91b0238dae3d50b61[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 11:20:58 2017 +0200
+
+    5.9 Validate comment model and add pagination
+
+[33mcommit c2bc03a7cd76700b2b52fc2d9205c9d7fc312356[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 9 06:18:11 2017 +0200
+
+    5.8 Reviews and Raty
+
+[33mcommit f8de2e414118a864abcaef09c7a80380f2027f83[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 8 22:25:26 2017 +0200
+
+    5.7 Create comments model
+
+[33mcommit 8330d1132903f12c43583a3e18236da60a59e1ad[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 8 18:17:01 2017 +0200
+
+    5.6 Edit layout
+
+[33mcommit fb9e43563cadcb3337cd9539909a9c35fd59b215[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 8 16:41:12 2017 +0200
+
+    5.5 Edit controller
+
+[33mcommit 4b521c794f803c88c2d2acf3f3278acfb9e42dfe[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Sep 7 05:02:54 2017 +0200
+
+    5.5 Install CanCanCan authorization gem + display error messages
+
+[33mcommit fe3e876f72459a09f0e0f3779f360edb2a032d2f[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Sep 7 02:13:31 2017 +0200
+
+    5.4 create login/logout
+
+[33mcommit d6276286ed770e4b982dd472d4e6f4572838a875[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Sep 7 02:01:42 2017 +0200
+
+    5.4 create login/logout
+
+[33mcommit b6585b8a5964ce0d28828ad504b2e88c9ba62a28[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Sep 6 19:41:30 2017 +0200
+
+    5.3 style contact form + generate HTML emails
+
+[33mcommit fb197d46a4712d91a0513c9dcf550075dade1209[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Sep 6 19:34:40 2017 +0200
+
+    5.3 style contact form + generate html emails
+
+[33mcommit 614a83d92766b063e5bcf6fab6465ac3e3d99ab9[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 2 01:43:43 2017 +0200
+
+    5.3 send emails in dev-mode + from heroku
+
+[33mcommit f173c8b7e77607f60b523842e29d6ece09b729aa[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Sep 2 01:24:50 2017 +0200
+
+    5.3 send emails dev-mode + from heroku
+
+[33mcommit c3f0dca81448e69096e15c6b27ca1dde6d467eac[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 21:10:58 2017 +0200
+
+    5.2 edit layout
+
+[33mcommit 1e8e3126a8416c48e6689fefd0b9a29d45d1278a[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 20:31:30 2017 +0200
+
+    5.2 implement search box + product form
+
+[33mcommit 1c3e792e44ffa892478defa4ccf21180f4ce6926[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 11:09:54 2017 +0200
+
+    5.1 edit layout
+
+[33mcommit 84894e8e26d44e7f6b6a9858c48a92cccda6f896[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 10:03:46 2017 +0200
+
+    5.1 edit layout
+
+[33mcommit 873f589f6ea83bba9dd7710085869b78467388cc[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 09:56:48 2017 +0200
+
+    5.1 add routes, redirect users
+
+[33mcommit f2fad4060acfd1cab3e53f63ba667f0c25f877d8[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 06:38:36 2017 +0200
+
+    5.1 edit carousel + add users
+
+[33mcommit 0e0386463eb1b887e76aaf68d94e940419dd91d8[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Sep 1 01:20:40 2017 +0200
+
+    4.6 edit layout
+
+[33mcommit 32ee5fc4c14b86c702a7ee3df3a8b5dbe1855c99[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Aug 31 21:41:29 2017 +0200
+
+    4.5 add partial
+
+[33mcommit 423da9e47dd63457800ce736795356d01455ddad[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Aug 31 20:18:40 2017 +0200
+
+    4.5 add carousel
+
+[33mcommit 4d8a0456fd1441bf5026a4841d5fb1823bf9d20f[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Aug 26 03:12:23 2017 +0200
+
+    4.5 add new bike images
+
+[33mcommit b1a9442bf8926b88f8939574a4bf56ead46adf15[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 23:18:48 2017 +0200
+
+    4.4 create a model for orders +  connect orders to products
+
+[33mcommit 96bb11fa06d5ba1b1cf137ed050caa066c5b950e[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 19:47:12 2017 +0200
+
+    4.4 change picture bikes
+
+[33mcommit bed1aff2323323b4c4d769cee27e5f9bc9275f01[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 18:49:26 2017 +0200
+
+    4.3 edit layout
+
+[33mcommit 498be568ae789947c18fbe6cee68be79d565a00b[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 17:42:55 2017 +0200
+
+    4.2 remove remove_price_from_products.rb
+
+[33mcommit efc2b8e8d9f4d1dc63840d3b9a3b400fbe688c40[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 16:02:08 2017 +0200
+
+    4.3 add orders to database
+
+[33mcommit 1f3478641e3a9d7f6ba77a6fae0d744c86d82959[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 12:20:22 2017 +0200
+
+    4.2 add color and price field to products
+
+[33mcommit eb00402d5e2acccb950cdf7f9bda408a66447fa7[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 25 02:28:21 2017 +0200
+
+    4.1 add products to database
+
+[33mcommit 213652d3d79e39f4d6a605ab9edd7feaf1d9f872[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Thu Aug 24 19:28:26 2017 +0200
+
+    4.1 create scaffolding for products
+
+[33mcommit 62433501d15bb18ac3723fb9334e521fbb972170[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Aug 23 12:42:52 2017 +0200
+
+    Updated gemfile.lock
+
+[33mcommit 0238a9b86fc2cd77805182123d290dc11ed4239e[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Wed Aug 23 00:12:29 2017 +0200
+
+    3.10 commit Heroku
+
+[33mcommit ce33fd69a848cd3882c6c71e3909e35bffe7e61d[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Aug 22 21:58:37 2017 +0200
+
+    commiting Gemfile.lock
+
+[33mcommit 1b5209a34aa8c1d02135148ca02bd15054d4e19f[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Aug 22 21:46:22 2017 +0200
+
+    Added Gemfile.lock
+
+[33mcommit 8812d24fd0f252cce902adca95c73e3b4ce6c3f2[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Aug 22 18:56:46 2017 +0200
+
+    3.10 add gems to gemfile
+
+[33mcommit 2045ef79b77a11261533862933e0f05a16af5d50[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Tue Aug 22 16:52:44 2017 +0200
+
+    3.9 add jquery-Gem, front page image, nav + footer
+
+[33mcommit 178b06ad1bab4b5378cfc2ccb7462b4d7ae2eb33[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Sat Aug 19 03:55:45 2017 +0200
+
+    added contact and about page
+
+[33mcommit ee972d7c6648f2019d19a952de6febaed2d4bb0f[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 18 20:49:40 2017 +0200
+
+    3.7 added .gitignore
+
+[33mcommit c7c80248b73769c5a754643b5fd76b91e224fb60[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 18 19:58:46 2017 +0200
+
+    3.7 added intro to readme
+
+[33mcommit 1ea76fa93ffb906204ade4bb8542646b3d928325[m
+Author: jsisanova <jana.sisanova@gmail.com>
+Date:   Fri Aug 18 15:26:22 2017 +0200
+
+    3.7 first commit
