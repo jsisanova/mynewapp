@@ -46,4 +46,18 @@ describe ProductsController, type: :controller do
     end
   end
 
+  context "put #update" do
+    before do
+      @product = FactoryGirl.create(:product)
+      @user = FactoryGirl.build(:user)
+      sign_in @user
+    end
+    it "successfully updates a product" do
+      @update = { name:@product.name, image_url:"images.com", id:@product.id, price:@product.price, colour: "brown"}
+      put :update, params: { id: @product.id, product: @update}
+      @product.reload
+      expect(@product.colour).to eq "brown"
+    end
+  end
+
 end
