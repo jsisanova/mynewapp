@@ -1,7 +1,7 @@
 <div class="container product-reviews">
   <hr>
   <h3>Latest customers reviews:</h3>
-  <% @comments.each do |comment| %>
-    <%= render comment %>
-  <% end %>
+  <div class="new-product-review">
+    <%= render @comments %>
+  </div> <!-- end product-reviews -->
 </div> <!-- end container -->
